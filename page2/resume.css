@@ -1,0 +1,67 @@
+nav {
+    background-color: #f4a100; /* สีส้ม */
+    padding: 10px 0; /* เพิ่มระยะห่างด้านบน-ล่าง */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #d38f00; /* เปลี่ยนสีตอน hover */
+    border-radius: 5px;
+}
+
+
+body {
+    background-color: rgba(#f4c78d) !important;
+}
+
+
+/* จัดตำแหน่ง resume และรูป */
+.resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* ให้ข้อความกับรูปแยกกัน */
+    padding: 50px;
+}
+
+.resume-text {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resume-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* ปรับขนาดและจัดให้อยู่กลางในกล่องข้อมูล */
+.info-box {
+    background-color: #f4c78d;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center; /* ทำให้ข้อความอยู่ตรงกลาง */
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%; /* ให้กล่องมีขนาดเหมาะสม */
+    border-radius: 10px;
+}
